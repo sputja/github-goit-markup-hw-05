@@ -214,8 +214,8 @@ a {
   padding-bottom: 25px;
 }
 
-.about--img-svg,
-.work--img {
+.about--img-svg
+  {
   border-radius: 4px;
   background-color: #f5f4fa;
 }
@@ -247,6 +247,7 @@ a {
 }
 
 .work--item {
+  position: relative;
   margin-right: 30px;
   text-decoration: none;
 }
@@ -255,6 +256,14 @@ a {
   margin-right: 0;
 }
 
+.work--title {
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  bottom: 0;
+  right: 0;
+
+}
 .work--title {
   font-weight: 700;
   font-size: 14px;
