@@ -1,4 +1,4 @@
-@@import "_header.scss";
+@import "_header.scss";
 
 :root {
   --main-font: 'Roboto', sans-serif;
@@ -90,6 +90,12 @@ a {
   color: var(--text--dark-color);
 }
 
+.nav--link1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .nav--link:hover,
 .nav--link:focus
 .nav--link1:hover,
@@ -102,6 +108,7 @@ a {
 .nav--link1:focus .nav--item1-svg{
   fill: var(--accent--color)
 }
+
 .nav--link-active {
   color: var(--accent--color);
   padding-bottom: 0px;
@@ -128,12 +135,6 @@ a {
 
 .nav--contact .nav--item1 + .nav--item1:nth-child(3) {
   margin-left: 30px;
-}
-
-.nav--link1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .nav--item1-svg {
